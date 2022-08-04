@@ -1,0 +1,61 @@
+/* apply to entire page */
+
+/* header style start */
+:root {
+  --primary: ;
+}
+
+header {
+  text-align: center;
+  padding-top: 5px;
+  padding-bottom: 10px;
+  background-color: rgb(75,105,177);
+  background-image: linear-gradient(90deg, rgba(75,105,177,1) 13%, rgba(35,77,167,1) 42%, rgba(1,1,105,1) 80%);
+}
+
+
+#stats-section {
+  padding-top: 5px;
+}
+
+body {
+  background-color: var(--primary);
+  margin: 1;
+  padding: 1;
+  font-family: "IBM Plex Sans", sans-serif;
+  color: var(--dark);
+  line-height: 1.5;
+  font-size: 16px;
+}
+
+h1 {
+  font-weight: 700;
+  margin: 0;
+  color: var(--white);
+  line-height: 1.25;
+}
+
+.hero {
+  padding: 3% 4%;
+  color: white;
+}
+
+.submit:hover {
+  background-color: #87CEEB;
+  transform: translate(0, 0);
+  box-shadow: 2px 2px var(--dark);
+}
+
+hr {
+   border-top: 1px solid black;
+}
+
+#log-city {
+  width: 100%;
+}
+
+.is-info {
+  background-color: #87CEEB;
+  width: 100%;
+  color: white;
+}
